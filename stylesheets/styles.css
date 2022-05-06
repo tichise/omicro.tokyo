@@ -35,12 +35,13 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#39c;
-  text-decoration:none;
+  color:#fff;
+  text-decoration:underline;
 }
 
 a:hover {
-  color:#069;
+  color:#ffff;
+    text-decoration:underline dotted;
 }
 
 a small {
