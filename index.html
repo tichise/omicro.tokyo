@@ -4,15 +4,30 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>omicro</title>
-
+    <meta name="description" content="omicro is a robotic ball that can be operated by hand motion and multiple simultaneous operations.">
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <meta name="viewport" content="width=device-width">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <link rel="stylesheet" type="text/css" href="main.css">
   </head>
   <body>
+    <div id="video-area">
+    <video id="video" poster="/omicro-image.png" webkit-playsinline playsinline muted autoplay loop>
+<!--
+poster：動画ファイルが利用できない環境で代替表示される画像
+webkit-playsinline：iOS 9までのSafari用インライン再生指定
+playsinline：iOS 10以降のSafari用インライン再生指定
+muted：音声をミュートさせる
+autoplay：動画を自動再生させる
+loop：動画をループさせる
+controls：コントロールバーを表示する
+-->
+      <source src="/omicro-movie.mp4" type="video/mp4">
+    </video>
+    <!--/video-area--></div>
     <div class="wrapper">
       <header>
         <h1>omicro</h1>
