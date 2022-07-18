@@ -17,6 +17,9 @@
         `layout: page` in the front-matter. See readme for usage.
       {% endcomment %}
 
+      <a class="sidebar-nav-item" href="https://omicro.tokyo/2022/07/18/omicro/">omicro</a>
+      <a class="sidebar-nav-item" href="https://omicro.tokyo/2022/07/17/omicro-sandbox/">omicro Sandbox</a>
+
       {% assign pages_list = site.pages %}
       {% for node in pages_list %}
         {% if node.title != null %}
@@ -25,9 +28,6 @@
           {% endif %}
         {% endif %}
       {% endfor %}
-
-      <a class="sidebar-nav-item" href="https://omicro.tokyo/2022/07/18/omicro/">omicro</a>
-      <a class="sidebar-nav-item" href="https://omicro.tokyo/2022/07/17/omicro-sandbox/">omicro Sandbox</a>
 
       <a class="sidebar-nav-item" href="https://medium.com/omicro">Blog</a>
       <a class="sidebar-nav-item" href="https://www.youtube.com/channel/UCNNG0Xf5_BI9byQsi13VjeQ">YouTube</a>
