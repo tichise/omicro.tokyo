@@ -1,6 +1,6 @@
 ---
-layout: post
-title: 制作者
+layout: page
+title: Creator
 ---
 
 ## Takuya Ichise
