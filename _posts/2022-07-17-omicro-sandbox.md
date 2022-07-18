@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: omicroとomicro Sandbox | マーカーレスARと仮想障害物を用いた自走式球体型ロボットの制御補助
 ---
 
