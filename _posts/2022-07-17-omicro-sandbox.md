@@ -8,7 +8,7 @@ title: omicroとomicro Sandbox | マーカーレスARと仮想障害物を用い
 一方で、複数の球体型ロボットで制御補助を行う場合、球体が赤外線やToFに影響を与えるため、内部センサによる周辺の正確な位置の取得が難しい問題がある。
 本研究では、スマホやAppleWatchから操作できるロボットボール omicroとマーカーレスARと仮想障害物を用いた自走式球体型ロボットの制御システム omicro Sandboxを提案する。
 
-<img src="{{ site.baseurl }}public/image/omicro-sandbox.png" />
+<img src="{{ site.baseurl }}public/image/omicro-sandbox.jpeg" />
 
 本論文では、2章にて関連研究を紹介し、3章で提案システムの概要について述べる。4章で評価実験について説明し、5章にて本論文のまとめをおこなう。
 
@@ -36,7 +36,7 @@ title: omicroとomicro Sandbox | マーカーレスARと仮想障害物を用い
 電池はエネループを6本使用し、2本と４本を分割して配置している。ロボットの1番下にはパラストも配置している。これらは重心を整えるため、分散して設置している。
 マイコンの制御はiOSアプリケーションからBLEで行っている。球体の中のロボットが球体の内側の壁を駆けあがろうとすると、重心が前方に偏り球体が前に進む。それを繰り返すことで前後左右に進む。方向転換は左右のモーターを同速で逆方向で回転させて超信地旋回で行っている。
 
-<img src="{{ site.baseurl }}public/image/omicro-fusion360.png" />
+<img src="{{ site.baseurl }}public/image/omicro-fusion360.jpeg" />
 
 ##### 3.2.2 球型ロボットを操作するためのiOSアプリケーション
 アプリケーションはXcodeを用いて、Swiftで作成してる。アプリケーションは球型ロボットと各種アプリのハブとなる役割をになっており、複数の球型ロボットとの通信CoreBluetoothを用いてBLEで行っている。後述するwatchOSアプリとの接続もBLEで行ってる。
