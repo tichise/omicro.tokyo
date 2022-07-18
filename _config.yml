@@ -8,8 +8,8 @@ relative_permalinks: false
 
 # Setup
 title:            omicro
-tagline:          '球体型ロボット'
-description:      '球体型ロボットボール omicroのWebサイトです。'
+tagline:          '自走球体型ロボット'
+description:      'Self-propelled spherical robot ball made by <a href="https://twitter.com/tichise" target="_blank">Takuya Ichise</a>.'
 url:              https://omicro.tokyo
 baseurl:          https://omicro.tokyo/
 
