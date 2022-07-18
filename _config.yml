@@ -9,7 +9,7 @@ relative_permalinks: false
 # Setup
 title:            omicro
 tagline:          '球体型ロボット'
-description:      'omicroはロボットボールです。スマートフォンやタブレットからbluetoothでつないで操作できます。Apple Watchを利用して複数のボールを同時に手の動きだけで操作することもできます。さらにUnityアプリから仮想の障害物をAR空間に設置して、現実のロボットボールを仮想障害物に当たらないように制御できます。'
+description:      '球体型ロボットボール omicroのWebサイトです。'
 url:              https://omicro.tokyo
 baseurl:          https://omicro.tokyo/
 
