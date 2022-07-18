@@ -24,7 +24,7 @@ title: 展示歴
 - Maker Faire Bangkok 2019
 
 ## 2018
-- - Maker Faire Taipei 2018
+- Maker Faire Taipei 2018
 - Maker Faire Shenzhen 2018
 - Maker Faire Tokyo 2018
 - NT Kanazawa 2018
