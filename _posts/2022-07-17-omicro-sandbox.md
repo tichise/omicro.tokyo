@@ -1,6 +1,6 @@
 ---
 layout: post
-title: omicroとomicro Sandbox | マーカーレスARと仮想障害物を用いた自走式球体型ロボットの制御補助
+title: omicro Sandbox | マーカーレスARと仮想障害物を用いた自走式球体型ロボットの制御補助システム
 ---
 
 ## 1. はじめに
