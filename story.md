@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Story
+title: ストーリー
 ---
 
 There are two movies that triggered me to make this robot. One is Star Wars, there is a scene where BB — 8 runs in the sand in the movie, but I think that it would be difficult for the ball type robot to realize it, and in order to actually confirm that it is a robot I started making balls. Although I did not run at all at first as a result of trial, now it is getting over if it is a little sandy land. Another is Jurassic World, a sphere ball that comes out in this movie. I thought that if I could control the contents of a small robot ball horizontally, I could expand the size and make a sphere ball. As a result of trial, it has become possible to keep level level little by little by the action of six axis accelerometer and inner wheels, but we have not realized it yet.

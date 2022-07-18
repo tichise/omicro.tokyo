@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Story
+title: 展示歴
 ---
 
 ## 2022
