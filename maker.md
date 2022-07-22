@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Creator
+title: Maker
 ---
 
 ## Takuya Ichise / 一瀬卓也
