@@ -10,6 +10,8 @@ title: omicro Sandbox | マーカーレスARと仮想障害物を用いた自走
 
 <img src="{{ site.baseurl }}public/image/omicro-sandbox.jpeg" />
 
+<iframe width="320" height="180" src="https://www.youtube.com/embed/3UHbqpUHRFE?loop=1&playlist=3UHbqpUHRFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 本論文では、2章にて関連研究を紹介し、3章で提案システムの概要について述べる。4章で評価実験について説明し、5章にて本論文のまとめをおこなう。
 
 ## 2. 関連研究
