@@ -4,25 +4,25 @@
 <url>
   <loc>https://omicro.tokyo/</loc>
   <priority>1.0</priority>
-  <lastmod>2022-05-11T12:23:48+09:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2022-08-18T12:23:48+09:00</lastmod>
+  <changefreq>weedailykly</changefreq>
 </url>
 <url>
   <loc>https://omicro.tokyo/2022/07/18/omicro/</loc>
   <priority>1.0</priority>
-  <lastmod>2022-05-11T12:23:48+09:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2022-08-18T12:23:48+09:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://omicro.tokyo/2022/07/17/omicro-sandbox/</loc>
   <priority>1.0</priority>
-  <lastmod>2022-05-11T12:23:48+09:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2022-08-18T12:23:48+09:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://omicro.tokyo/2022/07/16/omicro-vr/</loc>
-  <priority>1.0</priority>
-  <lastmod>2022-05-11T12:23:48+09:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <priority>0.1</priority>
+  <lastmod>2022-08-18T12:23:48+09:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 </urlset>
