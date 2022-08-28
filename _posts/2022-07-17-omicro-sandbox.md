@@ -56,6 +56,8 @@ iOSにないwatchOSアプリケーションならではの機能としては、�
 手を素早く下げた場合には機能がオフになり、素早く水平に上げた場合は機能がオンになる。手を水平状態から20°あげると、球体型ロボットが直進し、手を水平にあげたまま手のひらを左右に捻ると球体型ロボットが左右に回転する。
 現在は誤作動が多く実用レベルではないが、watchOSのCoreMLを用いて手の動きを機械学習し、より複雑なハンドモーションで球型ロボットを操作する機能も実装されている。
 
+<iframe width="320" height="180" src="https://www.youtube.com/embed/jYlJKQ_Lz2w?loop=1&playlist=jYlJKQ_Lz2w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ##### 3.3.4 Unityアプリケーション
 アプリケーションはUnityで作成している。ARFoundationを用いてiOSのARKitの機能を呼び出している。PlaneDetection、LiDAR情報をもとにした空間のMesh化、HumanStencilを用いた人間の位置取得、仮想オブジェクトの設置、ShaderやVFXGraphを用いた視覚効果は全てARFoundationと組み合わせて行っている。
