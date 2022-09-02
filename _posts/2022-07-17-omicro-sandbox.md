@@ -58,7 +58,9 @@ iOSにないwatchOSアプリケーションならではの機能としては、�
 手を素早く下げた場合には機能がオフになり、素早く水平に上げた場合は機能がオンになる。手を水平状態から20°あげると、球体型ロボットが直進し、手を水平にあげたまま手のひらを左右に捻ると球体型ロボットが左右に回転する。
 現在は誤作動が多く実用レベルではないが、watchOSのCoreMLを用いて手の動きを機械学習し、より複雑なハンドモーションで球型ロボットを操作する機能も実装されている。
 
-<iframe width="320" height="180" src="https://www.youtube.com/embed/jYlJKQ_Lz2w?loop=1&playlist=jYlJKQ_Lz2w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="frame-wrapper__video">
+<iframe src="https://www.youtube.com/embed/jYlJKQ_Lz2w?loop=1&playlist=jYlJKQ_Lz2w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 
 ##### 3.3.4 Unityアプリケーション
@@ -66,11 +68,17 @@ iOSにないwatchOSアプリケーションならではの機能としては、�
 球体型ロボットの位置の取得はOpenCVを用いて行っている。アプリケーションで取得した画像を球体型ロボットのLEDの青色を基準にして2値化し、ボール型ロボットの中心座標を取得。その後で中心座標に対してARFoundationでRaycastを行い、ボールの奥行き取得を取得。AR空間上の仮想の座標に球型ロボットのデジタルツインを配置し、デジタルツインがAR空間内でARで出現させた別のGameObjectと衝突した場合は、ハードウェアの球型ロボットにもフィードバックを返すようにしている。
 球型ロボットの向きの取得はこのアプリケーションでは行えないので、ハードウェアの方でデジタルコンパスを用いて方位を計算し、それをUnityアプリの方に返す形をとっている。
 
-<iframe width="320" height="180" src="https://www.youtube.com/embed/Q72rKRp1n6g?loop=1&playlist=Q72rKRp1n6g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="frame-wrapper__video">
+<iframe src="https://www.youtube.com/embed/Q72rKRp1n6g?loop=1&playlist=Q72rKRp1n6g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
-<iframe width="320" height="180" src="https://www.youtube.com/embed/WezOrvHdP-4?loop=1&playlist=WezOrvHdP-4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="frame-wrapper__video">
+<iframe src="https://www.youtube.com/embed/WezOrvHdP-4?loop=1&playlist=WezOrvHdP-4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
-<iframe width="320" height="180" src="https://www.youtube.com/embed/ZCqCP0iw_rY?loop=1&playlist=ZCqCP0iw_rY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="frame-wrapper__video">
+<iframe src="https://www.youtube.com/embed/ZCqCP0iw_rY?loop=1&playlist=ZCqCP0iw_rY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ##### 3.3.5 Firebase Cloud Firestore
 Firebase Cloud Firestoreは2つの用途で使ってる。1つは球型ボールから受け取った角度情報をUnityアプリケーションに送信するため。もう1つはUnityアプリケーションから受け取った衝突判定のフラグを球型ロボットに送信するためである。
@@ -79,10 +87,13 @@ Firebase Cloud Firestoreは2つの用途で使ってる。1つは球型ボール
 ### 4.1 実験環境[WIP]
 システムを利用してパフォーマンスを行い、システムの操作性や安定性について調査した。
 
-<iframe width="320" height="180" src="https://www.youtube.com/embed/WWQ7j0a7_0U?loop=1&playlist=WWQ7j0a7_0U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="frame-wrapper__video">
+<iframe  src="https://www.youtube.com/embed/WWQ7j0a7_0U?loop=1&playlist=WWQ7j0a7_0U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
-<iframe width="320" height="180" src="https://www.youtube.com/embed/Lots1cQWn_I?loop=1&playlist=Lots1cQWn_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<div class="frame-wrapper__video">
+<iframe src="https://www.youtube.com/embed/Lots1cQWn_I?loop=1&playlist=Lots1cQWn_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 ### 4.2 評価と考察[WIP]
 ### 4.3 実演での評価[WIP]
 以上より、展示会の実際の環境において十分に実用的なシステムであることを証明できた。
