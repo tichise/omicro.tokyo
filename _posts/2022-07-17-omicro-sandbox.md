@@ -8,11 +8,11 @@ title: マーカーレスARと仮想障害物を用いた自走式球体型ロ�
 一方で、複数の球体型ロボットで制御補助を行う場合、球体が赤外線やToFに影響を与えるため、内部センサによる周辺の正確な位置の取得が難しい問題がある。<br />
 本研究では、スマホやAppleWatchから操作できるロボットボール omicroとマーカーレスARと仮想障害物を用いた自走式球体型ロボットの制御システム omicro Sandboxを提案する。
 
-<img src="{{ site.baseurl }}public/image/omicro-sandbox.jpeg" />
-
 <div class="frame-wrapper__video">
 <iframe src="https://www.youtube.com/embed/3UHbqpUHRFE?loop=1&playlist=3UHbqpUHRFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+<img src="{{ site.baseurl }}public/image/omicro-sandbox.jpeg" />
 
 本論文では、2章にて関連研究を紹介し、3章で提案システムの概要について述べる。4章で評価実験について説明し、5章にて本論文のまとめをおこなう。
 
