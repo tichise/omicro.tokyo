@@ -1,12 +1,12 @@
 ---
 layout: post
-title: omicro balloid | ARと自律型AIを用いた球体型ロボットの群制御システム
+title: omicro balloid | 複合現実と自律型AIを用いた球体型ロボットの群制御システム
 ---
 
 ## 1. はじめに
-ロボットを用いたデモンストレーションは展示会で数多く見受けられる。本研究の著者も複数の球体型のロボットでそのようなデモンストレーションを行ってる。それらのロボットの操作を1人でマニュアル操作で行うことは難しいため、群制御をもちいて簡易に行えるようにしたいと考えている。<br />
+ロボットを用いたデモンストレーションは展示会で数多く見受けられる。本研究の著者も複数の球体型のロボットでデモンストレーションを行ってる。それらのロボットの操作を1人でマニュアル操作で行うことは難しいため、群制御をもちいて自律的に制御したいと考えている。<br />
 一方で、複数の球体型ロボットの群制御をハードウェア側で行う場合、球体が赤外線やToFに影響を与えるため、内部センサによる周辺の正確な位置の取得が難しい問題がある。<br />
-本研究では、ARと自律型AIを用いた球体型ロボットの群制御システム omicro balloidを提案する。
+本研究では、複合現実と自律型AIを用いた球体型ロボットの群制御システム omicro balloidを提案する。
 
 <div class="frame-wrapper__video">
 <iframe src="https://www.youtube.com/embed/3UHbqpUHRFE?loop=1&playlist=3UHbqpUHRFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
