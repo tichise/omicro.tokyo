@@ -7,7 +7,7 @@ title: omicro balloid | 複合現実と自律型AIを用いたマルチエージ
 ロボットを用いたデモンストレーションは展示会で数多く見受けられる。本作品の作者もSTEAM教育用の球体型のロボット omicroを自作し、それを用いたデモンストレーションを行ってる。ロボットの操作をマニュアルで長時間行うことは難しいため、AIをもちいて群制御で行えるようにしたいと考えている。<br />
 一方で、球体型ロボットの群制御をハードウェア側で行う場合、プラスチック球体がセンシングデバイスに影響を与えるため、内部センサによる周辺の正確な位置の取得が難しい問題がある。また球体が透明なため機械学習による物体検出も精度が出づらいという問題もある。<br />
 
-本作品では、球体型ロボットomicroと複合現実と自律型AIを用いたマルチエージェントシステム omicro balloidを提案する。
+本作品では、[球体型ロボットomicro](https://omicro.tokyo/2022/07/18/omicro/)と複合現実と自律型AIを用いたマルチエージェントシステム omicro balloidを提案する。
 
 <div class="frame-wrapper__video">
 <iframe src="https://www.youtube.com/embed/OW55twYWHYI?si=52gw0198qPPuJHVf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
