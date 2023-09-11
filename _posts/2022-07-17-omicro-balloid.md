@@ -77,3 +77,15 @@ omicro balloidはiPad ProのLiDARやコンピュータビジョンライブラ�
 <div class="frame-wrapper__video">
 <iframe src="https://www.youtube.com/embed/ZCqCP0iw_rY?loop=1&playlist=ZCqCP0iw_rY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+## 4 評価実験
+### 4.1 実験環境
+システムを利用してパフォーマンスを行い、システムの操作性や安定性について調査した。
+
+<div class="frame-wrapper__video">
+<iframe  src="https://www.youtube.com/embed/WWQ7j0a7_0U?loop=1&playlist=WWQ7j0a7_0U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="frame-wrapper__video">
+<iframe src="https://www.youtube.com/embed/Lots1cQWn_I?loop=1&playlist=Lots1cQWn_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
