@@ -9,6 +9,8 @@ title: omicro balloid | 複合現実と自律型AIを用いたマルチエージ
 
 本作品では、[球体型ロボットomicro](https://omicro.tokyo/2022/07/18/omicro/)と複合現実と自律型AIを用いたマルチエージェントシステム omicro balloidを提案する。
 
+<img src="{{ site.baseurl }}public/image/omicro-sandbox.jpeg" />
+
 <div class="frame-wrapper__video">
 <iframe src="https://www.youtube.com/embed/OW55twYWHYI?si=52gw0198qPPuJHVf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
@@ -16,8 +18,6 @@ title: omicro balloid | 複合現実と自律型AIを用いたマルチエージ
 <div class="frame-wrapper__video">
 <iframe src="https://www.youtube.com/embed/RzXbb--4pYU?si=CZkfbftlSrA576Lc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
-
-<img src="{{ site.baseurl }}public/image/omicro-sandbox.jpeg" />
 
 
 ## 2. 関連作品
