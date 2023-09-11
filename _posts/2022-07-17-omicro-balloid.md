@@ -8,6 +8,11 @@ title: omicro balloid | 複合現実と自律型AIを用いたマルチエージ
 一方で、球体型ロボットの群制御をハードウェア側で行う場合、プラスチック球体がセンシングデバイスに影響を与えるため、内部センサによる周辺の正確な位置の取得が難しい問題がある。また球体が透明なため機械学習による物体検出も精度が出づらいという問題もある。<br />
 
 本作品では、球体型ロボットomicroと複合現実と自律型AIを用いたマルチエージェントシステム omicro balloidを提案する。
+
+<div class="frame-wrapper__video">
+<iframe src="https://www.youtube.com/embed/OW55twYWHYI?si=52gw0198qPPuJHVf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
 <div class="frame-wrapper__video">
 <iframe src="https://www.youtube.com/embed/3UHbqpUHRFE?loop=1&playlist=3UHbqpUHRFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
