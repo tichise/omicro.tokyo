@@ -1,6 +1,6 @@
 ---
 layout: post
-title: omicro balloid | 複合現実と自律型AIを用いたマルチエージェントシステム
+title: omicro balloid：複合現実と自律型AIを用いたマルチエージェントシステム
 ---
 
 ## 1. はじめに
