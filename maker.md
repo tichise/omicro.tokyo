@@ -3,7 +3,7 @@ layout: page
 title: Maker
 ---
 
-## Takuya Ichise / 一瀬卓也
+## Takuya Ichise : 一瀬卓也
 Japanese iOS and Android Engineer and Maker who makes smartphone apps, robots, and Unity-based creations. My life's work is building a spherical robot omicro.
 I recently exhibited at Maker Faire in Bay Area, Singapore, Tokyo, Ogaki, Taipei, Bangkok, Shenzhen, Prague, Kyoto, Rangsit, and Manila.
 
