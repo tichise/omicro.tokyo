@@ -1,22 +1,21 @@
 ---
 layout: post
-title: omicro balloid | 複合現実と自律型AIを用いた球体型ロボットの群制御システム
+title: omicro balloid : 複合現実と自律型AIを用いたマルチエージェントシステム
 ---
 
 ## 1. はじめに
-ロボットを用いたデモンストレーションは展示会で数多く見受けられる。本研究の著者も複数の球体型のロボットでデモンストレーションを行ってる。それらのロボットの操作を1人でマニュアル操作で行うことは難しいため、群制御をもちいて自律的に制御したいと考えている。<br />
-一方で、複数の球体型ロボットの群制御をハードウェア側で行う場合、球体が赤外線やToFに影響を与えるため、内部センサによる周辺の正確な位置の取得が難しい問題がある。<br />
-本研究では、複合現実と自律型AIを用いた球体型ロボットの群制御システム omicro balloidを提案する。
+ロボットを用いたデモンストレーションは展示会で数多く見受けられる。本作品の作者もSTEAM教育用の球体型のロボット omicroを自作し、それを用いたデモンストレーションを行ってる。ロボットの操作をマニュアルで長時間行うことは難しいため、AIをもちいて群制御で行えるようにしたいと考えている。<br />
+一方で、球体型ロボットの群制御をハードウェア側で行う場合、プラスチック球体がセンシングデバイスに影響を与えるため、内部センサによる周辺の正確な位置の取得が難しい問題がある。また球体が透明なため機械学習による物体検出も精度が出づらいという問題もある。<br />
 
+本作品では、球体型ロボットomicroと複合現実と自律型AIを用いたマルチエージェントシステム omicro balloidを提案する。
 <div class="frame-wrapper__video">
 <iframe src="https://www.youtube.com/embed/3UHbqpUHRFE?loop=1&playlist=3UHbqpUHRFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <img src="{{ site.baseurl }}public/image/omicro-sandbox.jpeg" />
 
-本論文では、2章にて関連研究を紹介し、3章で提案システムの概要について述べる。4章で評価実験について説明し、5章にて本論文のまとめをおこなう。
 
-## 2. 関連研究
+## 2. 関連作品
 
 ## 3. 提案システム
 
@@ -61,9 +60,11 @@ iOSにないwatchOSアプリケーションならではの機能としては、�
 
 
 ##### 3.3.4 Unityアプリケーション
-アプリケーションはUnityで作成している。ARFoundationを用いてARKitの機能を呼び出している。PlaneDetection、LiDAR情報をもとにした空間のMesh化、HumanStencilを用いた人間の位置取得、仮想オブジェクトの設置、ShaderやVFXGraphを用いた視覚効果は全てARFoundationと組み合わせて行っている。
- 球体型ロボットの位置の取得はOpenCVを用いて行っている。アプリケーションで取得した画像を球体型ロボットのLEDの青色を基準にして2値化し、ボール型ロボットの中心座標を取得。その後で中心座標に対してARFoundationでRaycastを行い、ボールの奥行き取得を取得。AR空間上の仮想の座標に球型ロボットのデジタルツインを配置し、デジタルツインがAR空間内でARで出現させた別のGameObjectと衝突した場合は、ハードウェアの球型ロボットにもフィードバックを返すようにしている。 
+本システムの中核であるomicro balloidと名付けられた複合現実アプリはUnityで作成している。ARFoundationを用いてARKitの機能を呼び出している。PlaneDetection、LiDAR情報をもとにした空間のMesh化、HumanStencilを用いた人間の位置取得、仮想オブジェクトの設置、ShaderやVFXGraphを用いた視覚効果は全てARFoundationと組み合わせて行っている。
+球体型ロボットの位置の取得はOpenCVを用いて行っている。アプリケーションで取得した画像を球体型ロボットのLEDの青色を基準にして2値化し、ボール型ロボットの中心座標を取得。その後で中心座標に対してARFoundationでRaycastを行い、ボールの奥行き取得を取得。AR空間上の仮想の座標に球型ロボットのデジタルツインを配置し、デジタルツインがAR空間内でARで出現させた別のGameObjectと衝突した場合は、ハードウェアの球型ロボットにもフィードバックを返すようにしている。 
 球型ロボットの向きの取得はこのアプリケーションでは行えないので、ハードウェアの方でデジタルコンパスを用いて方位を計算し、それをUnityアプリの方に返す形をとっている。
+
+omicro balloidはiPad ProのLiDARやコンピュータビジョンライブラリを用いて現実空間の上にデジタルツインをリアルタイム作成し、その上で動くゲームAIが起こした事象が現実空間に存在する球体型ロボットに反映される。また現実に存在する球体型ロボットに仮想空間上での質量を与えてるので、現実のロボットが動くと仮想空間上のゲーム AIやゲームオブジェクトにも影響を与える。
 
 <div class="frame-wrapper__video">
 <iframe src="https://www.youtube.com/embed/Q72rKRp1n6g?loop=1&playlist=Q72rKRp1n6g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -76,25 +77,3 @@ iOSにないwatchOSアプリケーションならではの機能としては、�
 <div class="frame-wrapper__video">
 <iframe src="https://www.youtube.com/embed/ZCqCP0iw_rY?loop=1&playlist=ZCqCP0iw_rY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-
-##### 3.3.5 Firebase Cloud Firestore
-Firebase Cloud Firestoreは2つの用途で使ってる。1つは球型ボールから受け取った角度情報をUnityアプリケーションに送信するため。もう1つはUnityアプリケーションから受け取った衝突判定のフラグを球型ロボットに送信するためである。
-
-## 4 評価実験[WIP]
-### 4.1 実験環境[WIP]
-システムを利用してパフォーマンスを行い、システムの操作性や安定性について調査した。
-
-<div class="frame-wrapper__video">
-<iframe  src="https://www.youtube.com/embed/WWQ7j0a7_0U?loop=1&playlist=WWQ7j0a7_0U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-<div class="frame-wrapper__video">
-<iframe src="https://www.youtube.com/embed/Lots1cQWn_I?loop=1&playlist=Lots1cQWn_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-### 4.2 評価と考察[WIP]
-### 4.3 実演での評価[WIP]
-以上より、展示会の実際の環境において十分に実用的なシステムであることを証明できた。
-
-## 5. まとめ[WIP]
-本研究では、スマホやAppleWatchから操作できるロボットボール omicroとomicro balloid | ARと自律型AIを用いた球体型ロボットの群制御システムを構築した。システムの有効性を示すため、展示会で制御の実演を行った。また〜も確認した。
-今後は、システムを利用して様々な展示を行い、ARを用いた球体型ロボットの制御について他のパターンも模索する。
