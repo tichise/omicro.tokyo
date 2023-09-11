@@ -14,7 +14,7 @@ title: omicro balloid | 複合現実と自律型AIを用いたマルチエージ
 </div>
 
 <div class="frame-wrapper__video">
-<iframe src="https://www.youtube.com/embed/3UHbqpUHRFE?loop=1&playlist=3UHbqpUHRFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/RzXbb--4pYU?si=CZkfbftlSrA576Lc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 <img src="{{ site.baseurl }}public/image/omicro-sandbox.jpeg" />
