@@ -72,16 +72,13 @@ iOSにないwatchOSアプリケーションならではの機能としては、�
 omicro balloidはiPad ProのLiDARやコンピュータビジョンライブラリを用いて現実空間の上にデジタルツインをリアルタイム作成し、その上で動くゲームAIが起こした事象が現実空間に存在する球体型ロボットに反映される。また現実に存在する球体型ロボットに仮想空間上での質量を与えてるので、現実のロボットが動くと仮想空間上のゲーム AIやゲームオブジェクトにも影響を与える。
 
 <div class="frame-wrapper__video">
-<iframe src="https://www.youtube.com/embed/Q72rKRp1n6g?loop=1&playlist=Q72rKRp1n6g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe  src="https://www.youtube.com/embed/1QpAbbGFEUQ?si=lWYz64B2NPQe1yKP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 <div class="frame-wrapper__video">
-<iframe src="https://www.youtube.com/embed/WezOrvHdP-4?loop=1&playlist=WezOrvHdP-4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/xmWBEk5yjAA?si=pk4ZRXjhm0Ok0q7u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-<div class="frame-wrapper__video">
-<iframe src="https://www.youtube.com/embed/ZCqCP0iw_rY?loop=1&playlist=ZCqCP0iw_rY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
 
 ## 4 評価実験
 ### 4.1 実験環境
