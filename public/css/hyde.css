@@ -32,7 +32,7 @@
  */
 
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: YakuHanJP_Noto,Roboto,"Noto Sans JP",sans-serif;
 }
 @media (min-width: 48em) {
   html {
