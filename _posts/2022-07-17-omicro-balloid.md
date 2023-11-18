@@ -1,6 +1,7 @@
 ---
 layout: post
 title: omicro balloid：複合現実と自律型AIを用いたマルチエージェントシステム
+image: /image/omicro-sandbox.jpeg
 ---
 
 ## 1. はじめに
