@@ -11,7 +11,7 @@ title:            omicro
 tagline:          'スマホやAppleWatchから操作できる球体型ロボット'
 description:      'Spherical robot ball made by <a href="https://twitter.com/tichise" target="_blank">Takuya Ichise</a>.'
 url:              https://omicro.tokyo
-baseurl:          https://omicro.tokyo/
+baseurl:          /
 
 author:
   name:           'Takuya Ichise'
