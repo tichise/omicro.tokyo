@@ -10,7 +10,7 @@ image: public/image/omicro-sandbox.jpeg
 
 本作品では、[球体型ロボットomicro](https://omicro.tokyo/2022/07/18/omicro/)と複合現実と自律型AIを用いたマルチエージェントシステム omicro balloidを提案する。
 
-<img src="{{ site.baseurl }}public/image/omicro-sandbox.jpeg" />
+<img src="{{ site.url }}/public/image/omicro-sandbox.jpeg" />
 
 <div class="frame-wrapper__video">
 <iframe src="https://www.youtube.com/embed/OW55twYWHYI?si=52gw0198qPPuJHVf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -49,7 +49,7 @@ image: public/image/omicro-sandbox.jpeg
 車輪が全部で10個ついているが、動力に繋がってるのは下部の大きな2つ車輪のみである。タイヤを直接球体と接触させるとグリップが効きすぎるので医療用途で使われるサージカルテープを巻いて摩擦を減らしている。他の8個の車輪は静止時は球体の内壁に接触していない。走行時のみ内壁と接触する。補助輪には「ボールの直進安定性向上」「衝撃吸収」「回転時の軸を保つ」役割がある。
 車輪が回転して内側のロボットが球体の内側の壁を駆け上がろうとすると、前が重くなり、ボールが転がる。それを繰り返すことでボールが前に進む。ボールの向きの変更は超信地旋回で行っている。車輪が逆方向に等速で回転すると、ボールはその場で回転を始める。
 
-<img src="{{ site.baseurl }}public/image/omicro-fusion360.jpeg" />
+<img src="{{ site.url }}/public/image/omicro-fusion360.jpeg" />
 
 ##### 3.2.2 球型ロボットを操作するためのiOSアプリケーション
 このiOSアプリケーションはこのシステムのハブの役割を担っており、複数の球型ロボット omicroとwatchOSアプリ、Unityアプリの間の通信は全てこのアプリを介して行われている。複数の球型ロボットとwatchOSアプリとの通信はCoreBluetoothを用いてBLEで行っている。
