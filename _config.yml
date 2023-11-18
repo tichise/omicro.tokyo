@@ -26,3 +26,6 @@ github:
   repo:           https://github.com/tichise/omicro
 
 theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-seo-tag
