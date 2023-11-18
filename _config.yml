@@ -10,8 +10,8 @@ relative_permalinks: false
 title:            omicro
 tagline:          'スマホやAppleWatchから操作できる球体型ロボット'
 description:      'Spherical robot ball made by <a href="https://twitter.com/tichise" target="_blank">Takuya Ichise</a>.'
-url:              https://omicro.tokyo
-baseurl:          /
+url:              "https://omicro.tokyo" # サイトのベースURL
+baseurl:          "" # サブディレクトリがある場合はここに設定
 
 author:
   name:           'Takuya Ichise'
